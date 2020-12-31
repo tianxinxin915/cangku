@@ -1,0 +1,45 @@
+.Header {
+    background-color: #cccccc;
+    height: 100px;
+    width: 100%;
+
+    .top {
+        background-color: #e2bcd1;
+        border-bottom: 1px solid yellow;
+        height: 60px;
+        line-height: 60px;
+        text-align: right;
+        width: 100%;
+
+        span,a {
+            margin-right: 20px;
+        }
+
+    }
+
+    .bottom {
+        position: relative;
+        background-color:  #e2bcd1;
+        height: 40px;
+        line-height: 40px;
+
+        .index {
+            float: left;
+            margin-left: 100px;
+        }
+
+        .event,.weather {
+            float: right;
+            margin-right: 35px;
+        }
+
+    }
+    .triangle{
+        border: 20px solid transparent;
+        border-top-color:  rgb(205, 223, 217) ;
+        position: absolute;
+        top:40px;
+        left: 40px;
+
+    }
+}
